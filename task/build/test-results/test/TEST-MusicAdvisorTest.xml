@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MusicAdvisorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-05-31T21:41:38" hostname="DESKTOP-GKJJCCU" time="10.451">
+  <properties/>
+  <testcase name="start" classname="MusicAdvisorTest" time="10.451"/>
+  <system-out><![CDATA[?[1;31m
+Start test 1?[0m
+> auth
+use this link to request the access code:
+http://127.0.0.1:45678/authorize?client_id=1f84daa480ae4e2288a8644ab59e96b0&redirect_uri=http://localhost:8080&response_type=code
+Tester: making requests to redirect uri: http://localhost:8080
+Tester: done request 1: Authorization code not found. Try again.
+Tester: done request 2: Authorization code not found. Try again.
+Received code: 123123
+Tester: done request 3: Got the code. Return back to your program.
+Header: Authorization = Basic MWY4NGRhYTQ4MGFlNGUyMjg4YTg2NDRhYjU5ZTk2YjA6MjRhNzEwN2Y1MzAxNDhkYmEyNzA5YjM0OGU5ZjE3ODc=
+Token Request Results:
+200
+{"access_token":"456456","token_type":"Bearer","expires_in":3600,"refresh_token":"567567","scope":""}
+---SUCCESS---
+> exit
+---GOODBYE!---
+?[1;31m
+Start test 2?[0m
+> auth
+use this link to request the access code:
+http://127.0.0.1:45678/authorize?client_id=1f84daa480ae4e2288a8644ab59e96b0&redirect_uri=http://localhost:8080&response_type=code
+Tester: making requests to redirect uri: http://localhost:8080
+Tester: done request 1: Authorization code not found. Try again.
+Tester: done request 2: Authorization code not found. Try again.
+Received code: 123123
+Tester: done request 3: Got the code. Return back to your program.
+Header: Authorization = Basic MWY4NGRhYTQ4MGFlNGUyMjg4YTg2NDRhYjU5ZTk2YjA6MjRhNzEwN2Y1MzAxNDhkYmEyNzA5YjM0OGU5ZjE3ODc=
+Token Request Results:
+200
+{"access_token":"456456","token_type":"Bearer","expires_in":3600,"refresh_token":"567567","scope":""}
+---SUCCESS---
+> categories
+Top Lists
+---PAGE 1 OF 3---
+> next
+Super Mood
+---PAGE 2 OF 3---
+> next
+Party Time
+---PAGE 3 OF 3---
+> prev
+Super Mood
+---PAGE 2 OF 3---
+> prev
+Top Lists
+---PAGE 1 OF 3---
+?[1;31m
+Start test 3?[0m
+> auth
+use this link to request the access code:
+http://127.0.0.1:45678/authorize?client_id=1f84daa480ae4e2288a8644ab59e96b0&redirect_uri=http://localhost:8080&response_type=code
+Tester: making requests to redirect uri: http://localhost:8080
+Tester: done request 1: Authorization code not found. Try again.
+Tester: done request 2: Authorization code not found. Try again.
+Received code: 123123
+Tester: done request 3: Got the code. Return back to your program.
+Header: Authorization = Basic MWY4NGRhYTQ4MGFlNGUyMjg4YTg2NDRhYjU5ZTk2YjA6MjRhNzEwN2Y1MzAxNDhkYmEyNzA5YjM0OGU5ZjE3ODc=
+Token Request Results:
+200
+{"access_token":"456456","token_type":"Bearer","expires_in":3600,"refresh_token":"567567","scope":""}
+---SUCCESS---
+> featured
+Monday Morning Mood
+http://open.spotify.com/user/spotify/playlist/6ftJBzU2LLQcaKefMi7ee7
+
+
+---PAGE 1 OF 2---
+> next
+Upp och hoppa!
+http://open.spotify.com/user/spotify__sverige/playlist/4uOEx4OUrkoGNZoIlWMUbO
+
+
+---PAGE 2 OF 2---
+> prev
+Monday Morning Mood
+http://open.spotify.com/user/spotify/playlist/6ftJBzU2LLQcaKefMi7ee7
+
+
+---PAGE 1 OF 2---
+> exit
+---GOODBYE!---
+?[1;31m
+Start test 4?[0m
+> auth
+use this link to request the access code:
+http://127.0.0.1:45678/authorize?client_id=1f84daa480ae4e2288a8644ab59e96b0&redirect_uri=http://localhost:8080&response_type=code
+Tester: making requests to redirect uri: http://localhost:8080
+Tester: done request 1: Authorization code not found. Try again.
+Tester: done request 2: Authorization code not found. Try again.
+Received code: 123123
+Tester: done request 3: Got the code. Return back to your program.
+Header: Authorization = Basic MWY4NGRhYTQ4MGFlNGUyMjg4YTg2NDRhYjU5ZTk2YjA6MjRhNzEwN2Y1MzAxNDhkYmEyNzA5YjM0OGU5ZjE3ODc=
+Token Request Results:
+200
+{"access_token":"456456","token_type":"Bearer","expires_in":3600,"refresh_token":"567567","scope":""}
+---SUCCESS---
+> new
+Runnin'
+[Pharrell Williams]
+https://open.spotify.com/album/5ZX4m5aVSmWQ5iHAPQpT71
+
+
+---PAGE 1 OF 2---
+> prev
+No more pages.
+> next
+Sneakin'
+[Drake2]
+https://open.spotify.com/album/0geTzdk2InlqIoB16fW9Nd
+
+
+---PAGE 2 OF 2---
+> next
+No more pages.
+> prev
+Runnin'
+[Pharrell Williams]
+https://open.spotify.com/album/5ZX4m5aVSmWQ5iHAPQpT71
+
+
+---PAGE 1 OF 2---
+> exit
+---GOODBYE!---
+> new
+Runnin'
+[Pharrell Williams]
+https://open.spotify.com/album/5ZX4m5aVSmWQ5iHAPQpT71
+
+
+---PAGE 1 OF 2---
+> prev
+No more pages.
+> next
+Sneakin'
+[Drake2]
+https://open.spotify.com/album/0geTzdk2InlqIoB16fW9Nd
+
+
+---PAGE 2 OF 2---
+> next
+No more pages.
+> prev
+Runnin'
+[Pharrell Williams]
+https://open.spotify.com/album/5ZX4m5aVSmWQ5iHAPQpT71
+
+
+---PAGE 1 OF 2---
+> exit
+---GOODBYE!---
+?[1;31m
+Start test 5?[0m
+> auth
+use this link to request the access code:
+http://127.0.0.1:45678/authorize?client_id=1f84daa480ae4e2288a8644ab59e96b0&redirect_uri=http://localhost:8080&response_type=code
+Tester: making requests to redirect uri: http://localhost:8080
+Tester: done request 1: Authorization code not found. Try again.
+Tester: done request 2: Authorization code not found. Try again.
+Received code: 123123
+Tester: done request 3: Got the code. Return back to your program.
+Header: Authorization = Basic MWY4NGRhYTQ4MGFlNGUyMjg4YTg2NDRhYjU5ZTk2YjA6MjRhNzEwN2Y1MzAxNDhkYmEyNzA5YjM0OGU5ZjE3ODc=
+Token Request Results:
+200
+{"access_token":"456456","token_type":"Bearer","expires_in":3600,"refresh_token":"567567","scope":""}
+---SUCCESS---
+> playlists Party Time
+Noite Eletronica
+http://open.spotify.com/user/spotifybrazilian/playlist/4k7EZPI3uKMz4aRRrLVfen
+
+
+---PAGE 1 OF 2---
+> next
+Festa Indie
+http://open.spotify.com/user/spotifybrazilian/playlist/4HZh0C9y80GzHDbHZyX770
+
+
+---PAGE 2 OF 2---
+> prev
+Noite Eletronica
+http://open.spotify.com/user/spotifybrazilian/playlist/4k7EZPI3uKMz4aRRrLVfen
+
+
+---PAGE 1 OF 2---
+> exit
+---GOODBYE!---
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
